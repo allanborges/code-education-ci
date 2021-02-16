@@ -10,6 +10,12 @@ class ConversorService {
         let calc = (((vlr * 9) / 5) + 32).toFixed(2)
         return `${calc}°F`; 
     } 
+
+    converterToKilograms(vlr) {
+        //let calc = (((vlr * 9) / 5) + 32).toFixed(2)
+       // return `${calc}°F`; 
+       return null;
+    } 
 }
 
 
