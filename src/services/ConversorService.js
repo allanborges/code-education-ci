@@ -12,10 +12,15 @@ class ConversorService {
     } 
 
     converterToKilograms(vlr) {
-        //let calc = (((vlr * 9) / 5) + 32).toFixed(2)
-       // return `${calc}°F`; 
-       return null;
+       let calc = (vlr/1000);  
+       return `${calc}KG`;
     } 
+
+    converterToMeter(vlr) {
+       let calc = (vlr/100);  
+       return `${calc}M`;
+    }
+    
 }
 
 
